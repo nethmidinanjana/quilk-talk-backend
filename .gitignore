@@ -1,0 +1,34 @@
+# Ignore NetBeans-specific files
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+build/
+out/
+
+# Ignore compiled Java class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore logs and temporary files
+*.log
+hs_err_pid*
+*.swp
+
+# Ignore dependency cache
+.mvn/
+target/
+**/build/
+
+# Ignore IDE-specific files (VS Code, Eclipse, IntelliJ)
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
